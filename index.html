@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div id="container">
+        <form id="f">
+            <h2>Currency Converter</h1>
+            <label for="amount">Enter Amount</label>
+            <input class="fb" id="amount" placeholder="Enter Amount" type="text">
+            <div id="subcontainer">
+            <div class="dropdown">
+            <label>From</label>
+            <div class="div2">
+            <img src="american.png" class="flag" id="start">
+            <select class="comb" name="from" id="from">
+            </select>
+            </div>
+            </div>
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <div class="dropdown">
+            <label>To</label>
+            <div class="div2">
+             <img src="Flag_of_India.svg.webp" class="flag" id="end">
+            <select name="to" class="comb" id="to">
+            </select>
+            </div>
+            </div>
+            </div>
+            <p>1USD=80INR</p>
+            <button id="but">Get Exchange Rate</button>
+        </form>
+        </div>
+        <script src="countrylist.js"></script>
+        <script src="app.js"></script>
+</body>
+</html>
