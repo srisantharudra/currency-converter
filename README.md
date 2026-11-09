@@ -23,18 +23,31 @@ A responsive and interactive Currency Converter web application built using HTML
 
 📂 Project Structure
 
-Currency-Converter/
+currencyconverter/
 │
 ├── index.html
+│
 ├── style.css
-├── script.js
-└── README.md
+│
+├── app.js
+│
+├── countrylist.js
+│
+├── README.md
+│
+└── images/
+    │
+    ├── Flag_of_India.svg.webp
+    │
+    ├── american.png
+    │
+    └── currency.avif
 
 ⚙️ How to Run the Project
 
 1. Clone this repository:
    
-   git clone YOUR_REPOSITORY_URL
+   git clone https://github.com/srisantharudra/currency-converter
 
 2. Navigate to the project folder.
 
