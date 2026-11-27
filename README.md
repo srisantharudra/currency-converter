@@ -1,7 +1,7 @@
 💱 Currency converter
 
 A responsive and interactive Currency Converter web application built using HTML, CSS, and JavaScript. It allows users to convert an amount from one currency to another using real-time exchange rate data from an external API.
-
+Virat Kohli
 🚀 Features
 
 - 💰 Convert between different world currencies.
